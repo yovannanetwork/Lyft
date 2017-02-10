@@ -1,0 +1,10 @@
+*{
+	outline: 1px solid red;
+}
+body{
+	background-image: url(../img/Imagen1.jpg);
+	background-size: cover;
+}
+.container .img{
+	width: 100%;
+}
