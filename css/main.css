@@ -1,10 +1,38 @@
-*{
+/**{
 	outline: 1px solid red;
 }
 body{
 	background-image: url(../img/Imagen1.jpg);
 	background-size: cover;
-}
-.container .img{
+}*/
+.imagen{
 	width: 100%;
+	position: absolute;
+	height: 1000px;
+}
+.hero{
+	margin: 50px 0 500px;
+}
+.imagen-2{
+	position: relative;
+}
+button{
+	padding: 30px 100px;
+	text-align: center;
+	font-size: 40px;
+	border-radius: 10px;
+}
+button a{
+	color: white;
+	text-decoration: none;
+}
+#boton1{
+	background-color: rgba(20, 21, 21, 0.09);
+	border-bottom: 5px solid white;
+	border-top: 4px solid white;
+	float: right;
+}
+#boton2{
+	background-color: rgb(172, 32, 166);
+	border: 5px solid rgb(172, 32, 166);
 }
