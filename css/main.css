@@ -4,6 +4,10 @@
 body{
 	background-image: url(../img/Imagen1.jpg);
 	background-size: cover;
+}
+body{
+	background: -webkit-linear-gradient(bottom, black, white);
+	background: -webkit-linear-gradient(top, black, white);
 }*/
 .imagen{
 	width: 100%;
@@ -17,7 +21,7 @@ body{
 	position: relative;
 }
 button{
-	padding: 30px 100px;
+	padding: 40px 120px;
 	text-align: center;
 	font-size: 40px;
 	border-radius: 10px;
@@ -33,6 +37,29 @@ button a{
 	float: right;
 }
 #boton2{
-	background-color: rgb(172, 32, 166);
+	background: -webkit-linear-gradient(left,purple,#F1ADF1);
+	/*background: -moz-linear-gradient(bottom left, red, rgba(160, 31, 150, 0.97));*/
 	border: 5px solid rgb(172, 32, 166);
+}
+/*  segunda pagina-----*/
+body #codigo{
+	position: absolute;
+	z-index: 2000;
+	padding: 12px 8px;
+	
+}
+#input{
+	padding: 22px 35px;
+}
+#caja-rosada{
+	background-color: rgb(248, 69, 186);
+	padding: 25px 0;
+	margin: 300px auto;
+	width: 100%;
+	border-radius: none;
+	border: none;
+}
+#caja-rosada a{
+	color: white;
+	font-size: 50px;
 }
