@@ -1,6 +1,5 @@
-/**{
-	outline: 1px solid red;
-}
+
+/*
 body{
 	background-image: url(../img/Imagen1.jpg);
 	background-size: cover;
@@ -9,11 +8,13 @@ body{
 	background: -webkit-linear-gradient(bottom, black, white);
 	background: -webkit-linear-gradient(top, black, white);
 }*/
-.imagen{
-	width: 100%;
-	position: absolute;
-	height: 1000px;
+.degradado{
+	background: url(../img/portada.jpg) center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 1800px;
 }
+
 .hero{
 	margin: 50px 0 500px;
 }
@@ -25,19 +26,20 @@ button{
 	text-align: center;
 	font-size: 40px;
 	border-radius: 10px;
+	margin: 800px auto;
 }
 button a{
 	color: white;
 	text-decoration: none;
 }
 #boton1{
-	background-color: rgba(20, 21, 21, 0.09);
+	background-color: rgba(9, 10, 10, 0.27);
 	border-bottom: 5px solid white;
 	border-top: 4px solid white;
 	float: right;
 }
 #boton2{
-	background: -webkit-linear-gradient(left,purple,#F1ADF1);
+	background: -webkit-linear-gradient(left,#8e00bf,#e300bf);
 	/*background: -moz-linear-gradient(bottom left, red, rgba(160, 31, 150, 0.97));*/
 	border: 5px solid rgb(172, 32, 166);
 }
@@ -63,3 +65,4 @@ body #codigo{
 	color: white;
 	font-size: 50px;
 }
+/*------sing up ---*/
