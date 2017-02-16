@@ -1,5 +1,7 @@
+/**{
+	outline: 1px solid blue;
+}
 
-/*
 body{
 	background-image: url(../img/Imagen1.jpg);
 	background-size: cover;
@@ -8,6 +10,9 @@ body{
 	background: -webkit-linear-gradient(bottom, black, white);
 	background: -webkit-linear-gradient(top, black, white);
 }*/
+#body{
+	background: -webkit-linear-gradient(top,black,white);
+}
 .degradado{
 	background: url(../img/portada.jpg) center center;
 	background-size: cover;
@@ -21,7 +26,7 @@ body{
 .imagen-2{
 	position: relative;
 }
-button{
+.button{
 	padding: 40px 120px;
 	text-align: center;
 	font-size: 40px;
@@ -40,15 +45,19 @@ button a{
 }
 #boton2{
 	background: -webkit-linear-gradient(left,#8e00bf,#e300bf);
-	/*background: -moz-linear-gradient(bottom left, red, rgba(160, 31, 150, 0.97));*/
+	/*background: -moz-linear-gradient(bottom left, red, rgba(160 , 31, 150, 0.97));*/
 	border: 5px solid rgb(172, 32, 166);
 }
 /*  segunda pagina-----*/
+.icon{ 
+	margin: 25px auto;
+	font-size: 30px;
+	color: black;
+}
 body #codigo{
 	position: absolute;
 	z-index: 2000;
 	padding: 12px 8px;
-	
 }
 #input{
 	padding: 22px 35px;
@@ -60,9 +69,41 @@ body #codigo{
 	width: 100%;
 	border-radius: none;
 	border: none;
+	h
 }
 #caja-rosada a{
 	color: white;
 	font-size: 50px;
 }
 /*------sing up ---*/
+/*-----select country-------*/
+.close{
+	margin: 25px auto;
+}
+.close a{
+	color: ;
+	font-size: 30px;
+	color: black;
+}
+.countris{
+	background-color: rgb(213, 215, 216);
+	padding: 30px 10px;
+}
+.lista{
+	list-style: none;
+}
+.lista li{
+	padding: 20px 0;
+	border-bottom: 1px solid darkgray;
+	
+}
+/*-----pagina de los datos------*/
+.texto input{
+	padding-left: 30px;
+}
+/*-----common------*/
+.icono{
+	position: relative;
+	top: 25px;
+	left: 10px;
+}
