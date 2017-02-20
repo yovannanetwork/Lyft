@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
  	<header class="head">
@@ -32,14 +31,17 @@
 		<div class="container">
 			<div class="row input">
 			    <i class="fa fa-user icono"></i>
-				<p class="texto"><input type="text" class="form-control" placeholder="First name               Last name"></p>
+				<p class="texto"><input id="name" type="text" class="form-control" placeholder="First name               Last name"></p>
+				<p id="salida" style="color: red;"></p>
 				<i class="fa fa-envelope-o icono"></i>
-				<p class="texto"><input type="text" class="form-control" placeholder="Email"></p>
+				<p class="texto"><input id="email" type="text" class="form-control" placeholder="Email"></p>
+				<p id="salida1" style="color: red;"></p>
 
 			</div><br><br>
 			<div class="row check">
 				<div class="col-sm-1 text-right">
-					<input type="checkbox"> 
+					<input type="checkbox" id="check">
+					<p id="salida2" style="color: red;"></p>
 				</div>
 				<div class="col-sm-11 text-left">
 					<p>I agree to Lyft´s <a href="" style="color:darkturquoise;">Terms of service</a></p>
@@ -49,8 +51,9 @@
 	</section>		
 	<section>
 		 <div class="text-center">
-  		    	<button id="caja-rosada"><a href="">Next</a></button>
+  		    	<button id="caja-rosada" onclick="validate()"><a href="">Next</a></button>
   		    </div>
 	</section>	
 </body>
+<script src="js/main4.js"></script>
 </html>
